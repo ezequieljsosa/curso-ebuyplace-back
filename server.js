@@ -26,7 +26,7 @@ db.sequelize.sync();
 
 
 app.get("/", (req, res) => {
-  res.json({ message: "Hola mundo." });
+  res.json({ message: "Hola mundo. 2" });
 });
 
 require("./app/routes/personas.routes")(app);
